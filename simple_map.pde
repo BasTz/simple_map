@@ -32,7 +32,6 @@ UnfoldingMap map2;
 UnfoldingMap currentMap;
 void setup() {
   size(800, 600);
-  //map = new UnfoldingMap(this, new Google.GoogleMapProvider());
   map1 = new UnfoldingMap(this, new Microsoft.RoadProvider());
   map2 = new UnfoldingMap(this, new Microsoft.AerialProvider());
   MapUtils.createDefaultEventDispatcher(this, map1,map2);
